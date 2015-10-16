@@ -1,0 +1,44 @@
+<html>
+
+<head>
+	<title>NFL Roster Project</title>
+	<link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+	<link rel='stylesheet' href='site.css' type='text/css' />
+</head>
+
+<body>
+	<div class='container'>
+		<div class='panel panel-default'>
+			<div class='panel-heading'>My NFL Roster
+			</div>
+			<div class='panel-body'>
+				<div class='player-roster'>
+					<div class='player-card'><img src='http://s.nflcdn.com/static/content/public/image/fantasy/transparent/200x200/'>
+						<p>Name</p>
+						<p>Position</p>
+						<p>Number</p>
+					</div>
+				</div>
+				<div class="panel panel-primary">
+					<div class="panel-heading">Add Player
+					</div>
+					<div class="panel-body">
+						<div class='player-form'>
+							<form>
+								Player Name<input name="player-name" type="text" id="playerName" value="Player Name" /> 
+								Player Position<input name="player-position" type="text" id="playerPosition" value="Player Position" />
+								Player Number<input name="player-number" type="number" id="playerNumber" value="Player Number" /> 
+							</form>
+						</div>
+						<button type="button" class="btn btn-success" id="addPlayer">Add
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<script src='app.js' type='text/javascript'></script>
+</body>
+
+</html>

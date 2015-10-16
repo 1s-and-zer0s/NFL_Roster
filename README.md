@@ -13,16 +13,16 @@ Fantasy Football!!!
 8. Add a panel with a header that says "My NFL Roster"
 9. Wrap the panel in a div with the class "container".
 10. Inside the body, create 2 child divs, one with the class "player-roster" and one with the class "player-form"
-11. Inside the player-roster div, add another dive with the class "player-card" 
+11. Inside the player-roster div, add another div with the class "player-card" 
   - Set the player-card class to "display:inline-block" and add a "1px solid black" border
   - Add an image to the player card with the src = "http://s.nflcdn.com/static/content/public/image/fantasy/transparent/200x200/"
   - display the player's name
   - display the player's position
   - display the player's number
-12. Create a from inside the "player-form" div
+12. Create a form inside the "player-form" div
 13. Add an input field for Player Name, Position, and Number
 14. When the add button is pressed, it should automatically add a player to the Roster.
-15. Create a constructor for Player that accepts 3 arguments, Name, Position, Number.
+15. Create a constructor for Player that accepts 3 arguments: Name, Position, Number.
 16. When the Add button is pressed, a new player is created and added to the Players array.
 17. Use JQuery to target the "player-roster" div, and append the player.
    
